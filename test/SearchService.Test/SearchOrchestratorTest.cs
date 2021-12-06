@@ -3,6 +3,7 @@ using JourneySearchContract;
 using JourneySearchContract.Interfaces;
 using NSubstitute;
 using SearchService.Contract;
+using SearchService.Interfaces;
 using SearchService.Service;
 using Xunit;
 

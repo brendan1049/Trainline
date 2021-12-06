@@ -1,7 +1,6 @@
-using System;
 using FluentAssertions;
 using SearchService.Contract;
-using SearchService.Service;
+using SearchService.Mappers;
 using Xunit;
 
 namespace SearchService.Test

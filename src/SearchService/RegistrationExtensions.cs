@@ -1,6 +1,8 @@
 ﻿using JourneySearchContract.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 using SearchService.Attributes;
+using SearchService.Interfaces;
+using SearchService.Mappers;
 using SearchService.Service;
 
 namespace SearchService

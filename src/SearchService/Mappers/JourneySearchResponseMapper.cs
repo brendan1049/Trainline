@@ -1,13 +1,11 @@
 ﻿using System.Linq;
 using JourneySearchContract;
+using JourneySearchContract.Models;
 using SearchService.Contract;
+using SearchService.Interfaces;
 
-namespace SearchService.Service
+namespace SearchService.Mappers
 {
-    public interface IJourneySearchResponseMapper
-    {
-        SearchResponse MapResponse(JourneySearchResponse journeySearchRequest);
-    }
 
     public class JourneySearchResponseMapper : IJourneySearchResponseMapper
     {

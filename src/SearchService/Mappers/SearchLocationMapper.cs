@@ -1,12 +1,8 @@
 ﻿using SearchService.Contract;
+using SearchService.Interfaces;
 
-namespace SearchService.Service
+namespace SearchService.Mappers
 {
-    public interface ISearchLocationMapper
-    {
-        string MapToUkCode(Location loc);
-    }
-
     public class SearchLocationMapper : ISearchLocationMapper
     {
         public string MapToUkCode(Location loc)

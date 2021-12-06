@@ -1,12 +1,8 @@
-﻿using System;
+﻿using JourneySearchContract.Models;
 
 namespace JourneySearchContract
 {
-    public class JourneySearchJourney
+    public class JourneySearchJourney : Journey
     {
-        public string Origin { get; set; }
-        public string Destination { get; set; }
-        public DateTime DepartureTime { get; set; }
-        public DateTime ArrivalTime { get; set; }
     }
 }

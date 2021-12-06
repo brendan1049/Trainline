@@ -2,6 +2,7 @@
 using System.Linq;
 using FluentAssertions;
 using JourneySearchContract;
+using SearchService.Mappers;
 using SearchService.Service;
 using Xunit;
 
@@ -44,7 +45,7 @@ namespace SearchService.Test
             result.Journeys.Count().Should().Be(2);
             result.Journeys.First().Origin.Should().Be("To");
             result.Journeys.First().Destination.Should().Be("From");
-            result.Journeys.First().ArrivalTime.Should().Be(now);
+            result.Journeys.First().ArrivalTime.Should().Be(now); 
         }
     }
 }
