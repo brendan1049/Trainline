@@ -1,19 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31911.196
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchService", "src\SearchService\SearchService.csproj", "{7D0CF1A8-8875-4773-AED9-46397FA9EA01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "src\SearchService\SearchService.csproj", "{7D0CF1A8-8875-4773-AED9-46397FA9EA01}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DAB809B1-001D-4A3D-8C2C-1E30174E1044}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A2A9452F-60E2-4BDF-A1E9-7F2A14605D99}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UkJourneySearchService", "src\UkJourneySearchService\UkJourneySearchService.csproj", "{9549C8E4-D638-4551-9EAE-D87A07BF6DAE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UkJourneySearchService", "src\UkJourneySearchService\UkJourneySearchService.csproj", "{9549C8E4-D638-4551-9EAE-D87A07BF6DAE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JourneySearchContract", "src\JourneySearchContract\JourneySearchContract.csproj", "{9D24E8F9-A70D-44CD-8B20-892BC2DA0276}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JourneySearchContract", "src\JourneySearchContract\JourneySearchContract.csproj", "{9D24E8F9-A70D-44CD-8B20-892BC2DA0276}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchService.Test", "test\SearchService.Test\SearchService.Test.csproj", "{86C9C353-5BA5-4343-8E46-8C5A0BEDDAF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService.Test", "test\SearchService.Test\SearchService.Test.csproj", "{86C9C353-5BA5-4343-8E46-8C5A0BEDDAF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,16 +35,10 @@ Global
 		{86C9C353-5BA5-4343-8E46-8C5A0BEDDAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86C9C353-5BA5-4343-8E46-8C5A0BEDDAF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7D0CF1A8-8875-4773-AED9-46397FA9EA01} = {DAB809B1-001D-4A3D-8C2C-1E30174E1044}
 		{9549C8E4-D638-4551-9EAE-D87A07BF6DAE} = {DAB809B1-001D-4A3D-8C2C-1E30174E1044}
 		{9D24E8F9-A70D-44CD-8B20-892BC2DA0276} = {DAB809B1-001D-4A3D-8C2C-1E30174E1044}
 		{86C9C353-5BA5-4343-8E46-8C5A0BEDDAF6} = {A2A9452F-60E2-4BDF-A1E9-7F2A14605D99}
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C52DA4BA-5CC6-4ED1-8F3C-792C76C8CB39}
 	EndGlobalSection
 EndGlobal

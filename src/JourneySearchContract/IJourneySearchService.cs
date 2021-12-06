@@ -1,4 +1,4 @@
-﻿namespace JourneySearchContract.Interfaces
+﻿namespace JourneySearchContract
 {
     public interface IJourneySearchService
     {

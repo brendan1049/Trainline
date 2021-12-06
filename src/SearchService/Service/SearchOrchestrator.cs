@@ -1,7 +1,5 @@
 ﻿using JourneySearchContract;
-using JourneySearchContract.Interfaces;
 using SearchService.Contract;
-using SearchService.Exceptions;
 
 namespace SearchService.Service
 {
@@ -25,8 +23,6 @@ namespace SearchService.Service
 
         public SearchResponse PerformSearch(SearchRequest request)
         {
-            throw new UnhandledException ("Testing Exception");
-
             var fromCode = _locationMapper.MapToUkCode(request.From);
             var toCode = _locationMapper.MapToUkCode(request.To);
             var journeyResults = _journeySearchService.PerformSearch(new JourneySearchRequest

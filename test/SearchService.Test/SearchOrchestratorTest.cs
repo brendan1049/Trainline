@@ -1,6 +1,5 @@
 ﻿using FluentAssertions;
 using JourneySearchContract;
-using JourneySearchContract.Interfaces;
 using NSubstitute;
 using SearchService.Contract;
 using SearchService.Service;

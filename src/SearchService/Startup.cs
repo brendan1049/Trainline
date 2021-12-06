@@ -4,8 +4,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using SearchService.Attributes;
-using SearchService.Exceptions;
 
 namespace SearchService
 {
@@ -23,12 +21,10 @@ namespace SearchService
         {
             services.AddControllers();
             services.AddSearchServices();
-            services.AddExceptionFilters();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "SearchService", Version = "v1"});
             });
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,6 +1,5 @@
-﻿using JourneySearchContract.Interfaces;
+﻿using JourneySearchContract;
 using Microsoft.Extensions.DependencyInjection;
-using SearchService.Attributes;
 using SearchService.Service;
 
 namespace SearchService
@@ -22,13 +21,6 @@ namespace SearchService
             services.AddTransient<IJourneySearchService, UkJourneySearchService.UkJourneySearchService>();
             return services;
         }
-        public static IServiceCollection AddExceptionFilters(this IServiceCollection services)
-        {
-            services.AddMvc(options =>
-            {
-                options.Filters.Add<CustomExceptionAttribute>();
-            });
-            return services;
-        }
+
     }
 }
